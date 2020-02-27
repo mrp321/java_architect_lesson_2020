@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="349.0" y="0.0">cn.sitedev.ocp.course.OpenCloseTest</node>
+    <node x="0.0" y="388.0">cn.sitedev.ocp.course.JavaDiscountCourse</node>
+    <node x="25.0" y="151.0">cn.sitedev.ocp.course.JavaCourse</node>
+    <node x="100.5" y="0.0">cn.sitedev.ocp.course.ICourse</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="cn.sitedev.ocp.course.JavaDiscountCourse" target="cn.sitedev.ocp.course.JavaCourse">
+      <point x="0.0" y="-60.5" />
+      <point x="0.0" y="93.5" />
+    </edge>
+    <edge source="cn.sitedev.ocp.course.JavaCourse" target="cn.sitedev.ocp.course.ICourse">
+      <point x="0.0" y="-93.5" />
+      <point x="0.0" y="50.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="250.0" y="254.5" />
+  <SelectedNodes>
+    <node>cn.sitedev.ocp.course.OpenCloseTest</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

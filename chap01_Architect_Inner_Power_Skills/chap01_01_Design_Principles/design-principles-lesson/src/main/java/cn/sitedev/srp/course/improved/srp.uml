@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="357.0" y="317.0">cn.sitedev.srp.course.improved.ICourse</node>
+    <node x="0.0" y="0.0">cn.sitedev.srp.course.improved.ICourseManager</node>
+    <node x="180.0" y="0.0">cn.sitedev.srp.course.improved.ICourseInfo</node>
+    <node x="41.0" y="422.0">cn.sitedev.srp.course.improved.SmpleResponsibilityTest</node>
+    <node x="166.0" y="317.0">cn.sitedev.srp.course.improved.LiveCourse</node>
+    <node x="85.0" y="128.0">cn.sitedev.srp.course.improved.CourseImpl</node>
+    <node x="0.0" y="317.0">cn.sitedev.srp.course.improved.ReplayCourse</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="cn.sitedev.srp.course.improved.CourseImpl" target="cn.sitedev.srp.course.improved.ICourseInfo">
+      <point x="40.0" y="-72.0" />
+      <point x="205.0" y="103.0" />
+      <point x="250.0" y="103.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="cn.sitedev.srp.course.improved.SmpleResponsibilityTest" target="cn.sitedev.srp.course.improved.ReplayCourse">
+      <point x="-86.25" y="-27.5" />
+      <point x="69.75" y="397.0" />
+      <point x="36.5" y="397.0" />
+      <point x="-36.5" y="27.5" />
+    </edge>
+    <edge source="cn.sitedev.srp.course.improved.CourseImpl" target="cn.sitedev.srp.course.improved.ICourseManager">
+      <point x="-40.0" y="-72.0" />
+      <point x="125.0" y="103.0" />
+      <point x="80.0" y="103.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="cn.sitedev.srp.course.improved.SmpleResponsibilityTest" target="cn.sitedev.srp.course.improved.LiveCourse">
+      <point x="28.75" y="-27.5" />
+      <point x="184.75" y="397.0" />
+      <point x="202.5" y="397.0" />
+      <point x="-36.5" y="27.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9215291750503019" x="258.5" y="238.5" />
+  <SelectedNodes>
+    <node>cn.sitedev.srp.course.improved.ICourse</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="105.0">cn.sitedev.carp.db.improved.ProductDao</node>
+    <node x="401.0" y="126.5">cn.sitedev.carp.db.improved.OracleConnection</node>
+    <node x="34.43333333333334" y="253.0">cn.sitedev.carp.db.improved.CompositeAggregateReuseTest</node>
+    <node x="151.125" y="0.0">cn.sitedev.carp.db.improved.DBConnection</node>
+    <node x="215.0" y="126.5">cn.sitedev.carp.db.improved.MySQLConnection</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="cn.sitedev.carp.db.improved.ProductDao" target="cn.sitedev.carp.db.improved.DBConnection">
+      <point x="48.75" y="-49.0" />
+      <point x="146.25" y="85.0" />
+      <point x="204.375" y="85.0" />
+      <point x="-17.75" y="27.5" />
+    </edge>
+    <edge source="cn.sitedev.carp.db.improved.CompositeAggregateReuseTest" target="cn.sitedev.carp.db.improved.ProductDao">
+      <point x="-87.33333333333331" y="-27.5" />
+      <point x="78.10000000000002" y="228.0" />
+      <point x="48.75" y="228.0" />
+      <point x="-48.75" y="49.0" />
+    </edge>
+    <edge source="cn.sitedev.carp.db.improved.CompositeAggregateReuseTest" target="cn.sitedev.carp.db.improved.MySQLConnection">
+      <point x="87.33333333333331" y="-27.5" />
+      <point x="252.76666666666665" y="228.0" />
+      <point x="298.0" y="228.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="cn.sitedev.carp.db.improved.MySQLConnection" target="cn.sitedev.carp.db.improved.DBConnection">
+      <point x="0.0" y="-27.5" />
+      <point x="298.0" y="85.0" />
+      <point x="239.875" y="85.0" />
+      <point x="17.75" y="27.5" />
+    </edge>
+    <edge source="cn.sitedev.carp.db.improved.OracleConnection" target="cn.sitedev.carp.db.improved.DBConnection">
+      <point x="0.0" y="-27.5" />
+      <point x="488.0" y="75.0" />
+      <point x="275.375" y="75.0" />
+      <point x="53.25" y="27.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="287.5" y="154.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="197.99999999999994" y="306.0">cn.sitedev.dip.course.improved.setterinjection.DependenceInversionTest</node>
+    <node x="135.99999999999994" y="158.0">cn.sitedev.dip.course.improved.interfaceinjection.Tom</node>
+    <node x="312.99999999999994" y="115.0">cn.sitedev.dip.course.improved.constructorinjection.Tom</node>
+    <node x="0.0" y="136.5">cn.sitedev.dip.course.improved.setterinjection.Tom</node>
+    <node x="464.99999999999994" y="158.0">cn.sitedev.dip.course.improved.JavaCourse</node>
+    <node x="611.0" y="158.0">cn.sitedev.dip.course.improved.PythonCourse</node>
+    <node x="289.99999999999994" y="0.0">cn.sitedev.dip.course.improved.ICourse</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="cn.sitedev.dip.course.improved.setterinjection.Tom" target="cn.sitedev.dip.course.improved.ICourse">
+      <point x="29.0" y="-49.0" />
+      <point x="87.0" y="85.0" />
+      <point x="313.99999999999994" y="85.0" />
+      <point x="-32.0" y="27.5" />
+    </edge>
+    <edge source="cn.sitedev.dip.course.improved.constructorinjection.Tom" target="cn.sitedev.dip.course.improved.ICourse">
+      <point x="33.0" y="-70.5" />
+      <point x="411.99999999999994" y="95.0" />
+      <point x="361.99999999999994" y="95.0" />
+      <point x="16.0" y="27.5" />
+    </edge>
+    <edge source="cn.sitedev.dip.course.improved.setterinjection.DependenceInversionTest" target="cn.sitedev.dip.course.improved.PythonCourse">
+      <point x="86.25" y="-27.5" />
+      <point x="399.24999999999994" y="286.0" />
+      <point x="682.0" y="286.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="cn.sitedev.dip.course.improved.setterinjection.DependenceInversionTest" target="cn.sitedev.dip.course.improved.JavaCourse">
+      <point x="28.75" y="-27.5" />
+      <point x="341.74999999999994" y="276.0" />
+      <point x="528.0" y="276.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="cn.sitedev.dip.course.improved.setterinjection.DependenceInversionTest" target="cn.sitedev.dip.course.improved.setterinjection.Tom">
+      <point x="-86.25" y="-27.5" />
+      <point x="226.74999999999994" y="286.0" />
+      <point x="29.0" y="286.0" />
+      <point x="-29.0" y="49.0" />
+    </edge>
+    <edge source="cn.sitedev.dip.course.improved.interfaceinjection.Tom" target="cn.sitedev.dip.course.improved.ICourse">
+      <point x="0.0" y="-27.5" />
+      <point x="214.49999999999994" y="95.0" />
+      <point x="329.99999999999994" y="95.0" />
+      <point x="-16.0" y="27.5" />
+    </edge>
+    <edge source="cn.sitedev.dip.course.improved.JavaCourse" target="cn.sitedev.dip.course.improved.ICourse">
+      <point x="0.0" y="-27.5" />
+      <point x="528.0" y="85.0" />
+      <point x="377.99999999999994" y="85.0" />
+      <point x="32.0" y="27.5" />
+    </edge>
+    <edge source="cn.sitedev.dip.course.improved.PythonCourse" target="cn.sitedev.dip.course.improved.ICourse">
+      <point x="0.0" y="-27.5" />
+      <point x="682.0" y="75.0" />
+      <point x="393.99999999999994" y="75.0" />
+      <point x="48.0" y="27.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="376.5" y="180.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
