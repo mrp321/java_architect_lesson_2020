@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="308.99999999999994" y="105.0">cn.sitedev.simplefactory.JavaCourse</node>
+    <node x="617.0" y="105.0">cn.sitedev.simplefactory.improved.reflect.str.CourseFactory</node>
+    <node x="611.5" y="210.0">cn.sitedev.simplefactory.improved.reflect.str.SimpleFactoryTest</node>
+    <node x="454.99999999999994" y="105.0">cn.sitedev.simplefactory.PythonCourse</node>
+    <node x="207.69642857142853" y="210.0">cn.sitedev.simplefactory.improved.reflect.clazz.SimpleFactoryTest</node>
+    <node x="388.99999999999994" y="0.0">cn.sitedev.simplefactory.ICourse</node>
+    <node x="0.0" y="105.0">cn.sitedev.simplefactory.improved.reflect.clazz.CourseFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="cn.sitedev.simplefactory.PythonCourse" target="cn.sitedev.simplefactory.ICourse">
+      <point x="0.0" y="-27.5" />
+      <point x="526.0" y="85.0" />
+      <point x="463.99999999999994" y="85.0" />
+      <point x="15.0" y="27.5" />
+    </edge>
+    <edge source="cn.sitedev.simplefactory.improved.reflect.str.CourseFactory" target="cn.sitedev.simplefactory.ICourse">
+      <point x="0.0" y="-27.5" />
+      <point x="702.5" y="75.0" />
+      <point x="493.99999999999994" y="75.0" />
+      <point x="45.0" y="27.5" />
+    </edge>
+    <edge source="cn.sitedev.simplefactory.improved.reflect.str.SimpleFactoryTest" target="cn.sitedev.simplefactory.improved.reflect.str.CourseFactory">
+      <point x="45.5" y="-27.5" />
+      <point x="748.0" y="190.0" />
+      <point x="745.25" y="190.0" />
+      <point x="42.75" y="27.5" />
+    </edge>
+    <edge source="cn.sitedev.simplefactory.improved.reflect.clazz.SimpleFactoryTest" target="cn.sitedev.simplefactory.JavaCourse">
+      <point x="22.75" y="-27.5" />
+      <point x="321.44642857142856" y="180.0" />
+      <point x="371.99999999999994" y="180.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="cn.sitedev.simplefactory.JavaCourse" target="cn.sitedev.simplefactory.ICourse">
+      <point x="0.0" y="-27.5" />
+      <point x="371.99999999999994" y="85.0" />
+      <point x="433.99999999999994" y="85.0" />
+      <point x="-15.0" y="27.5" />
+    </edge>
+    <edge source="cn.sitedev.simplefactory.improved.reflect.clazz.SimpleFactoryTest" target="cn.sitedev.simplefactory.improved.reflect.clazz.CourseFactory">
+      <point x="-68.25" y="-27.5" />
+      <point x="230.44642857142853" y="190.0" />
+      <point x="72.25" y="190.0" />
+      <point x="-72.25" y="27.5" />
+    </edge>
+    <edge source="cn.sitedev.simplefactory.improved.reflect.clazz.SimpleFactoryTest" target="cn.sitedev.simplefactory.PythonCourse">
+      <point x="68.25" y="-27.5" />
+      <point x="366.94642857142856" y="190.0" />
+      <point x="526.0" y="190.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="cn.sitedev.simplefactory.improved.reflect.clazz.CourseFactory" target="cn.sitedev.simplefactory.ICourse">
+      <point x="0.0" y="-27.5" />
+      <point x="144.5" y="75.0" />
+      <point x="403.99999999999994" y="75.0" />
+      <point x="-45.0" y="27.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="397.0" y="132.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
