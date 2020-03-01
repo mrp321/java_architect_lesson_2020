@@ -3,18 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>chap01_Architect_Inner_Power_Skills</artifactId>
+        <artifactId>chap01_02_02_Singleton_Pattern</artifactId>
         <groupId>cn.sitedev</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>chap01_02_Design_Patterns</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>chap01_02_01_Factory_Pattern</module>
-        <module>chap01_02_02_Singleton_Pattern</module>
-    </modules>
+    <artifactId>singleton-pattern-lesson</artifactId>
 
 
 </project>
