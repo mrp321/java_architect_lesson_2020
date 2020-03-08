@@ -20,3 +20,12 @@
 ### 1.2.2. 单例模式
 
 [参见chap01_02_02_Singleton_Pattern](./chap01_Architect_Inner_Power_Skills/chap01_02_Design_Patterns/chap01_02_02_Singleton_Pattern)
+
+
+### 1.2.3. 原型及建造者模式
+
+[参见chap01_02_03_Prototype_And_Builder_Pattern](./chap01_Architect_Inner_Power_Skills/chap01_02_Design_Patterns/chap01_02_03_Prototype_And_Builder_Pattern)
+
+### 1.2.4. 代理模式
+
+[参见chap01_02_04_Proxy_Pattern](./chap01_Architect_Inner_Power_Skills/chap01_02_Design_Patterns/chap01_02_04_Proxy_Pattern)

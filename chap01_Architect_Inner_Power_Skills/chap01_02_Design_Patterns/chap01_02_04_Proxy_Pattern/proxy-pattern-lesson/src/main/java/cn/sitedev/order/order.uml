@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="447.42500000000007" y="872.0">cn.sitedev.order.OrderTest</node>
+    <node x="252.50000000000003" y="406.5">cn.sitedev.order.IOrderService</node>
+    <node x="434.92500000000007" y="646.5">cn.sitedev.order.OrderService</node>
+    <node x="71.47142857142853" y="612.0">cn.sitedev.order.OrderServiceStaticProxy</node>
+    <node x="10.5" y="306.0">cn.sitedev.order.DynamicDataSourceEntry</node>
+    <node x="451.7464285714285" y="0.0">cn.sitedev.order.Order</node>
+    <node x="454.42500000000007" y="406.5">cn.sitedev.order.OrderDao</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="cn.sitedev.order.OrderTest" target="cn.sitedev.order.IOrderService">
+      <point x="-30.19999999999999" y="-27.5" />
+      <point x="492.725" y="842.0" />
+      <point x="383.47142857142853" y="842.0" />
+      <point x="383.47142857142853" y="592.0" />
+      <point x="375.70000000000005" y="592.0" />
+      <point x="35.19999999999999" y="27.5" />
+    </edge>
+    <edge source="cn.sitedev.order.OrderService" target="cn.sitedev.order.OrderDao">
+      <point x="22.0" y="-70.5" />
+      <point x="544.9250000000001" y="592.0" />
+      <point x="557.1750000000001" y="592.0" />
+      <point x="34.25" y="27.5" />
+    </edge>
+    <edge source="cn.sitedev.order.OrderService" target="cn.sitedev.order.Order">
+      <point x="66.0" y="-70.5" />
+      <point x="588.9250000000001" y="592.0" />
+      <point x="612.3000000000001" y="592.0" />
+      <point x="612.3000000000001" y="286.0" />
+      <point x="564.9130952380951" y="286.0" />
+      <point x="16.16666666666663" y="128.0" />
+    </edge>
+    <edge source="cn.sitedev.order.OrderService" target="cn.sitedev.order.IOrderService">
+      <point x="-66.0" y="-70.5" />
+      <point x="456.92500000000007" y="592.0" />
+      <point x="410.9" y="592.0" />
+      <point x="70.39999999999998" y="27.5" />
+    </edge>
+    <edge source="cn.sitedev.order.OrderServiceStaticProxy" target="cn.sitedev.order.DynamicDataSourceEntry">
+      <point x="-55.0" y="-105.0" />
+      <point x="153.97142857142853" y="592.0" />
+      <point x="121.5" y="592.0" />
+      <point x="0.0" y="128.0" />
+    </edge>
+    <edge source="cn.sitedev.order.IOrderService" target="cn.sitedev.order.Order">
+      <point x="0.0" y="-27.5" />
+      <point x="340.5" y="286.0" />
+      <point x="500.2464285714285" y="286.0" />
+      <point x="-48.5" y="128.0" />
+    </edge>
+    <edge source="cn.sitedev.order.OrderServiceStaticProxy" target="cn.sitedev.order.IOrderService">
+      <point x="55.0" y="-105.0" />
+      <point x="263.97142857142853" y="592.0" />
+      <point x="305.30000000000007" y="592.0" />
+      <point x="-35.19999999999999" y="27.5" />
+    </edge>
+    <edge source="cn.sitedev.order.OrderServiceStaticProxy" target="cn.sitedev.order.Order">
+      <point x="-110.0" y="-105.0" />
+      <point x="98.97142857142853" y="592.0" />
+      <point x="0.0" y="592.0" />
+      <point x="0.0" y="276.0" />
+      <point x="467.91309523809514" y="276.0" />
+      <point x="-80.83333333333337" y="128.0" />
+    </edge>
+    <edge source="cn.sitedev.order.OrderDao" target="cn.sitedev.order.Order">
+      <point x="0.0" y="-27.5" />
+      <point x="522.9250000000001" y="286.0" />
+      <point x="532.5797619047619" y="286.0" />
+      <point x="-16.16666666666663" y="128.0" />
+    </edge>
+    <edge source="cn.sitedev.order.OrderTest" target="cn.sitedev.order.OrderServiceStaticProxy">
+      <point x="-60.39999999999998" y="-27.5" />
+      <point x="462.5250000000001" y="852.0" />
+      <point x="208.97142857142853" y="852.0" />
+      <point x="0.0" y="105.0" />
+    </edge>
+    <edge source="cn.sitedev.order.OrderTest" target="cn.sitedev.order.OrderService">
+      <point x="0.0" y="-27.5" />
+      <point x="0.0" y="70.5" />
+    </edge>
+    <edge source="cn.sitedev.order.OrderTest" target="cn.sitedev.order.Order">
+      <point x="30.200000000000045" y="-27.5" />
+      <point x="553.1250000000001" y="842.0" />
+      <point x="623.3000000000001" y="842.0" />
+      <point x="623.3000000000001" y="276.0" />
+      <point x="597.2464285714285" y="276.0" />
+      <point x="48.5" y="128.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9" x="565.6111111111111" y="460.1666666666666" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
