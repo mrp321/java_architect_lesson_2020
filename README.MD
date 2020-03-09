@@ -29,3 +29,7 @@
 ### 1.2.4. 代理模式
 
 [参见chap01_02_04_Proxy_Pattern](./chap01_Architect_Inner_Power_Skills/chap01_02_Design_Patterns/chap01_02_04_Proxy_Pattern)
+
+### 1.2.5. 外观模式与装饰器模式
+
+[参见chap01_02_05_Facade_And_Decorator_Pattern](./chap01_Architect_Inner_Power_Skills/chap01_02_Design_Patterns/chap01_02_05_Facade_And_Decorator_Pattern)

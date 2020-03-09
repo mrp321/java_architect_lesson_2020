@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="240.39583333333331" y="0.0">cn.sitedev.pancake.v2.Pancake</node>
+    <node x="198.3617424242424" y="136.0">cn.sitedev.pancake.v2.PancakeDecorator</node>
+    <node x="106.0625" y="368.0">cn.sitedev.pancake.v2.EggDecorator</node>
+    <node x="0.0" y="189.0">cn.sitedev.pancake.v2.BasePancake</node>
+    <node x="222.8617424242424" y="558.0">cn.sitedev.pancake.v2.PancakeTest</node>
+    <node x="321.0625" y="368.0">cn.sitedev.pancake.v2.SausageDecorator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="cn.sitedev.pancake.v2.PancakeTest" target="cn.sitedev.pancake.v2.EggDecorator">
+      <point x="-21.75" y="-27.0" />
+      <point x="288.1117424242424" y="528.0" />
+      <point x="203.5625" y="528.0" />
+      <point x="0.0" y="70.0" />
+    </edge>
+    <edge source="cn.sitedev.pancake.v2.SausageDecorator" target="cn.sitedev.pancake.v2.Pancake">
+      <point x="74.33333333333333" y="-70.0" />
+      <point x="506.8958333333333" y="343.0" />
+      <point x="479.625" y="343.0" />
+      <point x="479.625" y="106.0" />
+      <point x="355.11011904761904" y="106.0" />
+      <point x="41.71428571428572" y="38.0" />
+    </edge>
+    <edge source="cn.sitedev.pancake.v2.PancakeDecorator" target="cn.sitedev.pancake.v2.Pancake">
+      <point x="0.0" y="-91.0" />
+      <point x="309.8617424242424" y="116.0" />
+      <point x="313.3958333333333" y="116.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="cn.sitedev.pancake.v2.EggDecorator" target="cn.sitedev.pancake.v2.PancakeDecorator">
+      <point x="0.0" y="-70.0" />
+      <point x="203.5625" y="343.0" />
+      <point x="226.2367424242424" y="343.0" />
+      <point x="-83.625" y="91.0" />
+    </edge>
+    <edge source="cn.sitedev.pancake.v2.EggDecorator" target="cn.sitedev.pancake.v2.Pancake">
+      <point x="-65.0" y="-70.0" />
+      <point x="138.5625" y="343.0" />
+      <point x="170.56953463203462" y="343.0" />
+      <point x="170.56953463203462" y="106.0" />
+      <point x="271.6815476190476" y="106.0" />
+      <point x="-41.71428571428572" y="38.0" />
+    </edge>
+    <edge source="cn.sitedev.pancake.v2.BasePancake" target="cn.sitedev.pancake.v2.Pancake">
+      <point x="0.0" y="-38.0" />
+      <point x="73.0" y="96.0" />
+      <point x="250.82440476190476" y="96.0" />
+      <point x="-62.571428571428555" y="38.0" />
+    </edge>
+    <edge source="cn.sitedev.pancake.v2.PancakeTest" target="cn.sitedev.pancake.v2.SausageDecorator">
+      <point x="21.75" y="-27.0" />
+      <point x="331.6117424242424" y="528.0" />
+      <point x="432.5625" y="528.0" />
+      <point x="0.0" y="70.0" />
+    </edge>
+    <edge source="cn.sitedev.pancake.v2.PancakeTest" target="cn.sitedev.pancake.v2.BasePancake">
+      <point x="-65.25" y="-27.0" />
+      <point x="244.6117424242424" y="538.0" />
+      <point x="73.0" y="538.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="cn.sitedev.pancake.v2.PancakeTest" target="cn.sitedev.pancake.v2.Pancake">
+      <point x="65.25" y="-27.0" />
+      <point x="375.1117424242424" y="538.0" />
+      <point x="554.5625" y="538.0" />
+      <point x="554.5625" y="96.0" />
+      <point x="375.96726190476187" y="96.0" />
+      <point x="62.571428571428555" y="38.0" />
+    </edge>
+    <edge source="cn.sitedev.pancake.v2.SausageDecorator" target="cn.sitedev.pancake.v2.PancakeDecorator">
+      <point x="-74.33333333333331" y="-70.0" />
+      <point x="358.2291666666667" y="343.0" />
+      <point x="337.7367424242424" y="343.0" />
+      <point x="27.875" y="91.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="94.0" y="0.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

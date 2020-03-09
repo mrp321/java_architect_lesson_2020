@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="25.5" y="440.0">cn.sitedev.logger.JsonLoggerTest</node>
+    <node x="0.0" y="0.0">cn.sitedev.logger.LoggerDecorator</node>
+    <node x="17.5" y="256.0">cn.sitedev.logger.JsonLogger</node>
+    <node x="13.5" y="360.0">cn.sitedev.logger.JsonLoggerFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="cn.sitedev.logger.JsonLoggerTest" target="cn.sitedev.logger.JsonLoggerFactory">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="cn.sitedev.logger.JsonLogger" target="cn.sitedev.logger.LoggerDecorator">
+      <point x="43.5" y="-27.0" />
+      <point x="148.0" y="231.0" />
+      <point x="156.75" y="231.0" />
+      <point x="52.25" y="103.0" />
+    </edge>
+    <edge source="cn.sitedev.logger.JsonLoggerFactory" target="cn.sitedev.logger.JsonLogger">
+      <point x="-45.5" y="-15.0" />
+      <point x="59.0" y="335.0" />
+      <point x="61.0" y="335.0" />
+      <point x="-43.5" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="104.5" y="235.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
