@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="173.05208333333331" y="0.0">cn.sitedev.ticket.ITicket</node>
+    <node x="0.0" y="104.0">cn.sitedev.ticket.TrainTicket</node>
+    <node x="66.44791666666663" y="336.0">cn.sitedev.ticket.improved.TicketFactory</node>
+    <node x="205.84375" y="482.0">cn.sitedev.ticket.improved.TicketTest</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="cn.sitedev.ticket.improved.TicketFactory" target="cn.sitedev.ticket.TrainTicket">
+      <point x="-95.33333333333331" y="-48.0" />
+      <point x="114.11458333333331" y="311.0" />
+      <point x="118.5" y="311.0" />
+      <point x="0.0" y="91.0" />
+    </edge>
+    <edge source="cn.sitedev.ticket.improved.TicketTest" target="cn.sitedev.ticket.ITicket">
+      <point x="43.5" y="-27.0" />
+      <point x="336.34375" y="457.0" />
+      <point x="362.94791666666663" y="457.0" />
+      <point x="362.94791666666663" y="79.0" />
+      <point x="337.5520833333333" y="79.0" />
+      <point x="70.5" y="27.0" />
+    </edge>
+    <edge source="cn.sitedev.ticket.improved.TicketTest" target="cn.sitedev.ticket.improved.TicketFactory">
+      <point x="-43.5" y="-27.0" />
+      <point x="249.34375" y="457.0" />
+      <point x="209.44791666666663" y="457.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="cn.sitedev.ticket.TrainTicket" target="cn.sitedev.ticket.ITicket">
+      <point x="0.0" y="-91.0" />
+      <point x="118.5" y="79.0" />
+      <point x="196.55208333333331" y="79.0" />
+      <point x="-70.5" y="27.0" />
+    </edge>
+    <edge source="cn.sitedev.ticket.improved.TicketFactory" target="cn.sitedev.ticket.ITicket">
+      <point x="0.0" y="-48.0" />
+      <point x="209.44791666666663" y="311.0" />
+      <point x="247.5" y="311.0" />
+      <point x="247.5" y="79.0" />
+      <point x="243.55208333333331" y="79.0" />
+      <point x="-23.5" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="190.0" y="268.0" />
+  <SelectedNodes>
+    <node>cn.sitedev.ticket.improved.TicketTest</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

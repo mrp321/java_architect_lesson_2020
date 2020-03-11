@@ -17,6 +17,7 @@
         <module>chap01_02_03_Prototype_And_Builder_Pattern</module>
         <module>chap01_02_04_Proxy_Pattern</module>
         <module>chap01_02_05_Facade_And_Decorator_Pattern</module>
+        <module>chap01_02_06_Flyweight_And_Composite_Pattern</module>
     </modules>
 
 
