@@ -41,3 +41,7 @@
 ### 1.2.7. 适配器模式与桥接模式
 
 [参见chap01_02_07_Adapter_And_Bridge_Pattern](./chap01_Architect_Inner_Power_Skills/chap01_02_Design_Patterns/chap01_02_07_Adapter_And_Bridge_Pattern)
+
+### 1.2.8. 委派模式与模板方法模式
+
+[参见chap01_02_08_Delegate_And_Template_Pattern](./chap01_Architect_Inner_Power_Skills/chap01_02_Design_Patterns/chap01_02_08_Delegate_And_Template_Pattern)
