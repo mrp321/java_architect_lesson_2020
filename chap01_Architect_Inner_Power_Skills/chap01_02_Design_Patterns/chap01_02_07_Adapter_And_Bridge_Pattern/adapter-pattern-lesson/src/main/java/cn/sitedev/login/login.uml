@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="0.0">cn.sitedev.login.Member</node>
+    <node x="374.8511904761905" y="512.0">cn.sitedev.login.PassportForThirdAdapter</node>
+    <node x="390.2678571428571" y="342.0">cn.sitedev.login.IPassportForThird</node>
+    <node x="456.10714285714283" y="704.0">cn.sitedev.login.LoginTest</node>
+    <node x="105.26785714285711" y="364.0">cn.sitedev.login.PassportService</node>
+    <node x="400.0178571428571" y="11.0">cn.sitedev.login.ResultMsg</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="cn.sitedev.login.LoginTest" target="cn.sitedev.login.PassportForThirdAdapter">
+      <point x="-43.5" y="-27.0" />
+      <point x="499.60714285714283" y="679.0" />
+      <point x="456.8511904761905" y="679.0" />
+      <point x="-82.0" y="71.0" />
+    </edge>
+    <edge source="cn.sitedev.login.PassportForThirdAdapter" target="cn.sitedev.login.ResultMsg">
+      <point x="109.33333333333337" y="-71.0" />
+      <point x="648.1845238095239" y="487.0" />
+      <point x="728.7678571428571" y="487.0" />
+      <point x="728.7678571428571" y="322.0" />
+      <point x="625.7678571428571" y="322.0" />
+      <point x="96.75" y="135.0" />
+    </edge>
+    <edge source="cn.sitedev.login.IPassportForThird" target="cn.sitedev.login.ResultMsg">
+      <point x="0.0" y="-60.0" />
+      <point x="554.2678571428571" y="322.0" />
+      <point x="561.2678571428571" y="322.0" />
+      <point x="32.25" y="135.0" />
+    </edge>
+    <edge source="cn.sitedev.login.PassportService" target="cn.sitedev.login.Member">
+      <point x="-88.33333333333331" y="-38.0" />
+      <point x="149.4345238095238" y="322.0" />
+      <point x="157.0" y="322.0" />
+      <point x="0.0" y="146.0" />
+    </edge>
+    <edge source="cn.sitedev.login.PassportForThirdAdapter" target="cn.sitedev.login.IPassportForThird">
+      <point x="0.0" y="-71.0" />
+      <point x="538.8511904761905" y="487.0" />
+      <point x="554.2678571428571" y="487.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="cn.sitedev.login.PassportForThirdAdapter" target="cn.sitedev.login.PassportService">
+      <point x="-109.33333333333331" y="-71.0" />
+      <point x="429.5178571428571" y="487.0" />
+      <point x="237.7678571428571" y="487.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="cn.sitedev.login.PassportService" target="cn.sitedev.login.ResultMsg">
+      <point x="0.0" y="-38.0" />
+      <point x="237.7678571428571" y="312.0" />
+      <point x="432.2678571428571" y="312.0" />
+      <point x="-96.75" y="135.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="364.5" y="379.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

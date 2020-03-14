@@ -34,6 +34,10 @@
 
 [参见chap01_02_05_Facade_And_Decorator_Pattern](./chap01_Architect_Inner_Power_Skills/chap01_02_Design_Patterns/chap01_02_05_Facade_And_Decorator_Pattern)
 
-### 1.2.7. 享元模式与组合模式
+### 1.2.6. 享元模式与组合模式
 
 [参见chap01_02_06_Flyweight_And_Composite_Pattern](./chap01_Architect_Inner_Power_Skills/chap01_02_Design_Patterns/chap01_02_06_Flyweight_And_Composite_Pattern)
+
+### 1.2.7. 适配器模式与桥接模式
+
+[参见chap01_02_07_Adapter_And_Bridge_Pattern](./chap01_Architect_Inner_Power_Skills/chap01_02_Design_Patterns/chap01_02_07_Adapter_And_Bridge_Pattern)
