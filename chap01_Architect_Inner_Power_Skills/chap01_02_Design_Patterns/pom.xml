@@ -20,6 +20,7 @@
         <module>chap01_02_06_Flyweight_And_Composite_Pattern</module>
         <module>chap01_02_07_Adapter_And_Bridge_Pattern</module>
         <module>chap01_02_08_Delegate_And_Template_Pattern</module>
+        <module>chap01_02_09_Strategy_And_ResponsibilityChain_Pattern</module>
     </modules>
 
 

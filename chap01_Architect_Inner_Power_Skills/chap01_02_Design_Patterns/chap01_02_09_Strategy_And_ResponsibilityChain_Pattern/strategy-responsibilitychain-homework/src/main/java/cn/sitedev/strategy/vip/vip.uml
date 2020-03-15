@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="265.5" y="136.0">cn.sitedev.chain.vip.level.GoldenVip</node>
+    <node x="709.5" y="136.0">cn.sitedev.chain.vip.level.NormalVip</node>
+    <node x="64.5" y="136.0">cn.sitedev.chain.vip.level.NotVip</node>
+    <node x="487.5" y="136.0">cn.sitedev.chain.vip.level.SilverVip</node>
+    <node x="3.5" y="790.0">cn.sitedev.chain.vip.entity.Order</node>
+    <node x="401.72321428571433" y="0.0">cn.sitedev.chain.vip.level.IVip</node>
+    <node x="0.0" y="622.0">cn.sitedev.chain.vip.VipStrategy</node>
+    <node x="473.5" y="346.0">cn.sitedev.chain.vip.enumeration.StrategyEnum</node>
+    <node x="105.76785714285717" y="1132.0">cn.sitedev.chain.vip.VipTest</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="cn.sitedev.chain.vip.level.GoldenVip" target="cn.sitedev.chain.vip.level.IVip">
+      <point x="0.0" y="-80.0" />
+      <point x="366.5" y="116.0" />
+      <point x="455.889880952381" y="116.0" />
+      <point x="-10.833333333333314" y="38.0" />
+    </edge>
+    <edge source="cn.sitedev.chain.vip.enumeration.StrategyEnum" target="cn.sitedev.chain.vip.level.NotVip">
+      <point x="-92.0" y="-113.0" />
+      <point x="496.5" y="326.0" />
+      <point x="155.0" y="326.0" />
+      <point x="0.0" y="80.0" />
+    </edge>
+    <edge source="cn.sitedev.chain.vip.VipStrategy" target="cn.sitedev.chain.vip.enumeration.StrategyEnum">
+      <point x="54.0" y="-59.0" />
+      <point x="162.0" y="597.0" />
+      <point x="531.0" y="597.0" />
+      <point x="-57.5" y="113.0" />
+    </edge>
+    <edge source="cn.sitedev.chain.vip.level.SilverVip" target="cn.sitedev.chain.vip.level.IVip">
+      <point x="0.0" y="-80.0" />
+      <point x="588.5" y="116.0" />
+      <point x="477.5565476190477" y="116.0" />
+      <point x="10.833333333333371" y="38.0" />
+    </edge>
+    <edge source="cn.sitedev.chain.vip.VipTest" target="cn.sitedev.chain.vip.entity.Order">
+      <point x="0.0" y="-27.0" />
+      <point x="192.76785714285717" y="1107.0" />
+      <point x="160.25" y="1107.0" />
+      <point x="52.25" y="146.0" />
+    </edge>
+    <edge source="cn.sitedev.chain.vip.enumeration.StrategyEnum" target="cn.sitedev.chain.vip.level.SilverVip">
+      <point x="0.0" y="-113.0" />
+      <point x="0.0" y="80.0" />
+    </edge>
+    <edge source="cn.sitedev.chain.vip.VipStrategy" target="cn.sitedev.chain.vip.level.IVip">
+      <point x="-54.0" y="-59.0" />
+      <point x="54.0" y="96.0" />
+      <point x="412.55654761904765" y="96.0" />
+      <point x="-54.166666666666686" y="38.0" />
+    </edge>
+    <edge source="cn.sitedev.chain.vip.level.NotVip" target="cn.sitedev.chain.vip.level.IVip">
+      <point x="0.0" y="-80.0" />
+      <point x="155.0" y="106.0" />
+      <point x="434.22321428571433" y="106.0" />
+      <point x="-32.5" y="38.0" />
+    </edge>
+    <edge source="cn.sitedev.chain.vip.enumeration.StrategyEnum" target="cn.sitedev.chain.vip.level.NormalVip">
+      <point x="46.0" y="-113.0" />
+      <point x="634.5" y="316.0" />
+      <point x="810.5" y="316.0" />
+      <point x="0.0" y="80.0" />
+    </edge>
+    <edge source="cn.sitedev.chain.vip.VipTest" target="cn.sitedev.chain.vip.enumeration.StrategyEnum">
+      <point x="58.0" y="-27.0" />
+      <point x="250.76785714285717" y="1107.0" />
+      <point x="646.0" y="1107.0" />
+      <point x="57.5" y="113.0" />
+    </edge>
+    <edge source="cn.sitedev.chain.vip.enumeration.StrategyEnum" target="cn.sitedev.chain.vip.level.GoldenVip">
+      <point x="-46.0" y="-113.0" />
+      <point x="542.5" y="316.0" />
+      <point x="366.5" y="316.0" />
+      <point x="0.0" y="80.0" />
+    </edge>
+    <edge source="cn.sitedev.chain.vip.entity.Order" target="cn.sitedev.chain.vip.VipStrategy">
+      <point x="0.0" y="-146.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="cn.sitedev.chain.vip.level.NormalVip" target="cn.sitedev.chain.vip.level.IVip">
+      <point x="0.0" y="-80.0" />
+      <point x="810.5" y="106.0" />
+      <point x="499.22321428571433" y="106.0" />
+      <point x="32.5" y="38.0" />
+    </edge>
+    <edge source="cn.sitedev.chain.vip.enumeration.StrategyEnum" target="cn.sitedev.chain.vip.level.IVip">
+      <point x="92.0" y="-113.0" />
+      <point x="680.5" y="326.0" />
+      <point x="922.0" y="326.0" />
+      <point x="922.0" y="96.0" />
+      <point x="520.889880952381" y="96.0" />
+      <point x="54.16666666666663" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="461.0" y="424.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
