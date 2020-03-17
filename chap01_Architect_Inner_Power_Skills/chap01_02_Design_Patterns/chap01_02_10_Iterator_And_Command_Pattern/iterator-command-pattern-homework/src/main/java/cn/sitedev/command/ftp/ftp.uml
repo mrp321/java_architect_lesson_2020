@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="817.1765376984129" y="616.0">cn.sitedev.command.ftp.FtpTest</node>
+    <node x="902.0000000000001" y="386.0">cn.sitedev.command.ftp.command.DirCommand</node>
+    <node x="0.0" y="374.0">cn.sitedev.command.ftp.FtpClient</node>
+    <node x="257.0" y="386.0">cn.sitedev.command.ftp.command.GetCommand</node>
+    <node x="472.0000000000001" y="386.0">cn.sitedev.command.ftp.command.LsCommand</node>
+    <node x="1332.0" y="386.0">cn.sitedev.command.ftp.command.CdCommand</node>
+    <node x="304.0272321428572" y="55.0">cn.sitedev.command.ftp.command.ICommand</node>
+    <node x="950.9265376984129" y="0.0">cn.sitedev.command.ftp.FtpServer</node>
+    <node x="1117.0" y="386.0">cn.sitedev.command.ftp.command.PutCommand</node>
+    <node x="680.0000000000001" y="386.0">cn.sitedev.command.ftp.command.SendCommand</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="cn.sitedev.command.ftp.FtpTest" target="cn.sitedev.command.ftp.command.GetCommand">
+      <point x="-43.5" y="-27.0" />
+      <point x="860.6765376984129" y="576.0" />
+      <point x="354.5" y="576.0" />
+      <point x="0.0" y="69.0" />
+    </edge>
+    <edge source="cn.sitedev.command.ftp.FtpTest" target="cn.sitedev.command.ftp.FtpServer">
+      <point x="78.29999999999995" y="-27.0" />
+      <point x="982.4765376984128" y="596.0" />
+      <point x="1541.5" y="596.0" />
+      <point x="1541.5" y="184.0" />
+      <point x="1064.712251984127" y="184.0" />
+      <point x="54.785714285714334" y="82.0" />
+    </edge>
+    <edge source="cn.sitedev.command.ftp.command.SendCommand" target="cn.sitedev.command.ftp.FtpServer">
+      <point x="0.0" y="-69.0" />
+      <point x="781.0000000000001" y="334.0" />
+      <point x="988.8551091269842" y="334.0" />
+      <point x="-21.071428571428555" y="82.0" />
+    </edge>
+    <edge source="cn.sitedev.command.ftp.command.GetCommand" target="cn.sitedev.command.ftp.command.ICommand">
+      <point x="-65.0" y="-69.0" />
+      <point x="289.5" y="354.0" />
+      <point x="347.4647321428572" y="354.0" />
+      <point x="-26.0625" y="27.0" />
+    </edge>
+    <edge source="cn.sitedev.command.ftp.command.SendCommand" target="cn.sitedev.command.ftp.command.ICommand">
+      <point x="-67.33333333333326" y="-69.0" />
+      <point x="713.6666666666669" y="274.0" />
+      <point x="382.2147321428572" y="274.0" />
+      <point x="8.6875" y="27.0" />
+    </edge>
+    <edge source="cn.sitedev.command.ftp.FtpTest" target="cn.sitedev.command.ftp.command.SendCommand">
+      <point x="-8.700000000000045" y="-27.0" />
+      <point x="895.4765376984128" y="556.0" />
+      <point x="781.0000000000001" y="556.0" />
+      <point x="0.0" y="69.0" />
+    </edge>
+    <edge source="cn.sitedev.command.ftp.FtpTest" target="cn.sitedev.command.ftp.command.DirCommand">
+      <point x="8.700000000000045" y="-27.0" />
+      <point x="912.8765376984129" y="556.0" />
+      <point x="999.5000000000001" y="556.0" />
+      <point x="0.0" y="69.0" />
+    </edge>
+    <edge source="cn.sitedev.command.ftp.FtpTest" target="cn.sitedev.command.ftp.command.PutCommand">
+      <point x="26.100000000000023" y="-27.0" />
+      <point x="930.2765376984129" y="566.0" />
+      <point x="1214.5" y="566.0" />
+      <point x="0.0" y="69.0" />
+    </edge>
+    <edge source="cn.sitedev.command.ftp.command.PutCommand" target="cn.sitedev.command.ftp.FtpServer">
+      <point x="0.0" y="-69.0" />
+      <point x="1214.5" y="244.0" />
+      <point x="1022.56939484127" y="244.0" />
+      <point x="12.64285714285711" y="82.0" />
+    </edge>
+    <edge source="cn.sitedev.command.ftp.command.LsCommand" target="cn.sitedev.command.ftp.command.ICommand">
+      <point x="-62.66666666666663" y="-69.0" />
+      <point x="503.3333333333335" y="284.0" />
+      <point x="364.8397321428572" y="284.0" />
+      <point x="-8.6875" y="27.0" />
+    </edge>
+    <edge source="cn.sitedev.command.ftp.command.GetCommand" target="cn.sitedev.command.ftp.FtpServer">
+      <point x="0.0" y="-69.0" />
+      <point x="354.5" y="294.0" />
+      <point x="955.1408234126985" y="294.0" />
+      <point x="-54.78571428571428" y="82.0" />
+    </edge>
+    <edge source="cn.sitedev.command.ftp.FtpTest" target="cn.sitedev.command.ftp.command.LsCommand">
+      <point x="-26.100000000000023" y="-27.0" />
+      <point x="878.0765376984128" y="566.0" />
+      <point x="566.0000000000001" y="566.0" />
+      <point x="0.0" y="69.0" />
+    </edge>
+    <edge source="cn.sitedev.command.ftp.command.CdCommand" target="cn.sitedev.command.ftp.command.ICommand">
+      <point x="-62.66666666666666" y="-69.0" />
+      <point x="1363.3333333333335" y="224.0" />
+      <point x="434.3397321428572" y="224.0" />
+      <point x="60.8125" y="27.0" />
+    </edge>
+    <edge source="cn.sitedev.command.ftp.FtpClient" target="cn.sitedev.command.ftp.command.ICommand">
+      <point x="59.25" y="-81.0" />
+      <point x="177.75" y="344.0" />
+      <point x="330.0897321428572" y="344.0" />
+      <point x="-43.4375" y="27.0" />
+    </edge>
+    <edge source="cn.sitedev.command.ftp.command.PutCommand" target="cn.sitedev.command.ftp.command.ICommand">
+      <point x="-65.0" y="-69.0" />
+      <point x="1149.5" y="254.0" />
+      <point x="416.9647321428572" y="254.0" />
+      <point x="43.4375" y="27.0" />
+    </edge>
+    <edge source="cn.sitedev.command.ftp.command.DirCommand" target="cn.sitedev.command.ftp.FtpServer">
+      <point x="65.0" y="-69.0" />
+      <point x="1064.5" y="354.0" />
+      <point x="1014.1408234126984" y="354.0" />
+      <point x="4.214285714285666" y="82.0" />
+    </edge>
+    <edge source="cn.sitedev.command.ftp.command.CdCommand" target="cn.sitedev.command.ftp.FtpServer">
+      <point x="62.66666666666666" y="-69.0" />
+      <point x="1488.6666666666665" y="204.0" />
+      <point x="1047.8551091269842" y="204.0" />
+      <point x="37.928571428571445" y="82.0" />
+    </edge>
+    <edge source="cn.sitedev.command.ftp.FtpTest" target="cn.sitedev.command.ftp.FtpClient">
+      <point x="-60.90000000000009" y="-27.0" />
+      <point x="843.2765376984128" y="586.0" />
+      <point x="177.75" y="586.0" />
+      <point x="59.25" y="81.0" />
+    </edge>
+    <edge source="cn.sitedev.command.ftp.command.DirCommand" target="cn.sitedev.command.ftp.command.ICommand">
+      <point x="-65.0" y="-69.0" />
+      <point x="934.5000000000001" y="264.0" />
+      <point x="399.5897321428572" y="264.0" />
+      <point x="26.0625" y="27.0" />
+    </edge>
+    <edge source="cn.sitedev.command.ftp.command.LsCommand" target="cn.sitedev.command.ftp.FtpServer">
+      <point x="0.0" y="-69.0" />
+      <point x="566.0000000000001" y="314.0" />
+      <point x="971.9979662698413" y="314.0" />
+      <point x="-37.928571428571445" y="82.0" />
+    </edge>
+    <edge source="cn.sitedev.command.ftp.FtpTest" target="cn.sitedev.command.ftp.command.CdCommand">
+      <point x="43.5" y="-27.0" />
+      <point x="947.6765376984129" y="576.0" />
+      <point x="1426.0" y="576.0" />
+      <point x="0.0" y="69.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9513444302176697" x="771.0" y="335.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

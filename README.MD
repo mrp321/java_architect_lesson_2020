@@ -50,3 +50,8 @@
 ### 1.2.9. 策略模式与责任链模式
 
 [参见chap01_02_09_Strategy_And_ResponsibilityChain_Pattern](./chap01_Architect_Inner_Power_Skills/chap01_02_Design_Patterns/chap01_02_09_Strategy_And_ResponsibilityChain_Pattern)
+
+
+### 1.2.10. 迭代器模式与命令模式
+
+[参见chap01_02_10_Iterator_And_Command_Pattern](./chap01_Architect_Inner_Power_Skills/chap01_02_Design_Patterns/chap01_02_10_Iterator_And_Command_Pattern)
