@@ -22,6 +22,7 @@
         <module>chap01_02_08_Delegate_And_Template_Pattern</module>
         <module>chap01_02_09_Strategy_And_ResponsibilityChain_Pattern</module>
         <module>chap01_02_10_Iterator_And_Command_Pattern</module>
+        <module>chap01_02_11_State_And_Memento_Pattern</module>
     </modules>
 
 
