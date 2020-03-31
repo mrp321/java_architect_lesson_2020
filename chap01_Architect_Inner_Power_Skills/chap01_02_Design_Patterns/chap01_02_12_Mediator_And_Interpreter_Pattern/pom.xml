@@ -9,11 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>chap01_02_11_State_And_Memento_Pattern</artifactId>
+    <artifactId>chap01_02_12_Mediator_And_Interpreter_Pattern</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>state-pattern-lesson</module>
-        <module>memento-pattern-lesson</module>
+        <module>mediator-pattern-lesson</module>
+        <module>interpreter-pattern-lesson</module>
+        <module>mediator-interpreter-pattern-homework</module>
     </modules>
 
 
