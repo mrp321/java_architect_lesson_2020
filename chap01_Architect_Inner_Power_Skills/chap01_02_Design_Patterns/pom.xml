@@ -25,6 +25,7 @@
         <module>chap01_02_11_State_And_Memento_Pattern</module>
         <module>chap01_02_12_Mediator_And_Interpreter_Pattern</module>
         <module>chap01_02_13_Observer_And_Visitor_Pattern</module>
+        <module>chap01_02_14_All_Patterns_Compare</module>
     </modules>
 
 

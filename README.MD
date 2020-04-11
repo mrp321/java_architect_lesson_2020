@@ -71,3 +71,8 @@
 ### 1.2.13. 访问者模式与观察者模式
 
 [参见chap01_02_13_Observer_And_Visitor_Pattern](./chap01_Architect_Inner_Power_Skills/chap01_02_Design_Patterns/chap01_02_13_Observer_And_Visitor_Pattern)
+
+
+### 1.2.14. 各设计模式总结与对比
+
+[参见chap01_02_14_All_Patterns_Compare](./chap01_Architect_Inner_Power_Skills/chap01_02_Design_Patterns/chap01_02_14_All_Patterns_Compare)
