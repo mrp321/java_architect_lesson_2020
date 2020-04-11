@@ -55,3 +55,19 @@
 ### 1.2.10. 迭代器模式与命令模式
 
 [参见chap01_02_10_Iterator_And_Command_Pattern](./chap01_Architect_Inner_Power_Skills/chap01_02_Design_Patterns/chap01_02_10_Iterator_And_Command_Pattern)
+
+
+### 1.2.11. 状态模式与备忘录模式
+
+[参见chap01_02_11_State_And_Memento_Pattern](./chap01_Architect_Inner_Power_Skills/chap01_02_Design_Patterns/chap01_02_11_State_And_Memento_Pattern)
+
+
+### 1.2.12. 中介者模式与解释器模式
+
+[参见chap01_02_12_Mediator_And_Interpreter_Pattern](./chap01_Architect_Inner_Power_Skills/chap01_02_Design_Patterns/chap01_02_12_Mediator_And_Interpreter_Pattern)
+
+
+
+### 1.2.13. 访问者模式与观察者模式
+
+[参见chap01_02_13_Observer_And_Visitor_Pattern](./chap01_Architect_Inner_Power_Skills/chap01_02_Design_Patterns/chap01_02_13_Observer_And_Visitor_Pattern)
