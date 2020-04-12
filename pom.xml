@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>chap01_Architect_Inner_Power_Skills</module>
+        <module>chap02_Architect_Aesthetic</module>
     </modules>
     <packaging>pom</packaging>
 

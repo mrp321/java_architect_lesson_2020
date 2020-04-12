@@ -76,3 +76,16 @@
 ### 1.2.14. 各设计模式总结与对比
 
 [参见chap01_02_14_All_Patterns_Compare](./chap01_Architect_Inner_Power_Skills/chap01_02_Design_Patterns/chap01_02_14_All_Patterns_Compare)
+
+
+# 2. 架构师审美观
+
+[参见chap02_Architect_Aesthetic](./chap02_Architect_Aesthetic)
+
+## 2.1. Spring核心原理篇
+
+[参见chap02_01_Spring_Core_Principles](./chap02_Architect_Aesthetic/chap02_01_Spring_Core_Principles)
+
+### 2.2.1. Spring前世今生与Spring编程思想
+
+[参见chap02_01_01_Spring_History_And_Programming_Thought](./chap02_Architect_Aesthetic/chap02_01_Spring_Core_Principles/chap02_01_01_Spring_History_And_Programming_Thought)
