@@ -3,18 +3,21 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>chap02_Architect_Aesthetic</artifactId>
+        <artifactId>chap02_01_Spring_Core_Principles</artifactId>
         <groupId>cn.sitedev</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>chap02_01_Spring_Core_Principles</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>chap02_01_01_Spring_History_And_Programming_Thought</module>
-        <module>chap02_01_02_300_Lines_4_SpringV1</module>
-    </modules>
+    <artifactId>chap02_01_02_300_Lines_4_SpringV1</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.4</version>
+        </dependency>
+
+    </dependencies>
 
 </project>
