@@ -93,3 +93,8 @@
 ### 2.1.2. 用300行代码手写初体验Spring V1.0版本
 
 [参见chap02_01_02_300_Lines_4_SpringV1](./chap02_Architect_Aesthetic/chap02_01_Spring_Core_Principles/chap02_01_02_300_Lines_4_SpringV1)
+
+### 2.1.3. 用30个类手写Spring V2.0之顶层设计IOC与DI
+
+[参见chap02_01_03_30_Classes_4_SpringV2_IOC_DI](./chap02_Architect_Aesthetic/chap02_01_Spring_Core_Principles/chap02_01_03_30_Classes_4_SpringV2_IOC_DI)
+
