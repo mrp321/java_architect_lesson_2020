@@ -98,3 +98,7 @@
 
 [参见chap02_01_03_30_Classes_4_SpringV2_IOC_DI](./chap02_Architect_Aesthetic/chap02_01_Spring_Core_Principles/chap02_01_03_30_Classes_4_SpringV2_IOC_DI)
 
+### 2.1.4. 用30个类手写Spring V2.0之MVC实现
+
+[参见chap02_01_04_30_Classes_4_SpringV2_MVC](./chap02_Architect_Aesthetic/chap02_01_Spring_Core_Principles/chap02_01_04_30_Classes_4_SpringV2_MVC)
+

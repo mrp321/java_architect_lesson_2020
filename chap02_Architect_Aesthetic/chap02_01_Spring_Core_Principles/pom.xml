@@ -15,6 +15,7 @@
         <module>chap02_01_01_Spring_History_And_Programming_Thought</module>
         <module>chap02_01_02_300_Lines_4_SpringV1</module>
         <module>chap02_01_03_30_Classes_4_SpringV2_IOC_DI</module>
+        <module>chap02_01_04_30_Classes_4_SpringV2_MVC</module>
     </modules>
 
 
