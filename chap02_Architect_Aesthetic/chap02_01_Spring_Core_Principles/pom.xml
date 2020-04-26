@@ -17,6 +17,7 @@
         <module>chap02_01_03_30_Classes_4_SpringV2_IOC_DI</module>
         <module>chap02_01_04_30_Classes_4_SpringV2_MVC</module>
         <module>chap02_01_05_30_Classes_4_SpringV2_AOP</module>
+        <module>chap02_01_06_Spring5_Annotation_Programming</module>
     </modules>
 
 

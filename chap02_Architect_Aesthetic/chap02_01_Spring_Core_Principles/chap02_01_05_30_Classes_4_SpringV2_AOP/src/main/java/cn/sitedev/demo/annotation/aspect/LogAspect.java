@@ -1,4 +1,4 @@
-package cn.sitedev.demo.aspect;
+package cn.sitedev.demo.annotation.aspect;
 
 public class LogAspect {
     // 在调用一个方法前, 执行before方法

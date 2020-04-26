@@ -107,3 +107,8 @@
 
 [参见chap02_01_05_30_Classes_4_SpringV2_AOP](./chap02_Architect_Aesthetic/chap02_01_Spring_Core_Principles/chap02_01_05_30_Classes_4_SpringV2_AOP)
 
+
+### 2.1.5. Spring5注解编程基础组件介绍
+
+[参见chap02_01_06_Spring5_Annotation_Programming](./chap02_Architect_Aesthetic/chap02_01_Spring_Core_Principles/chap02_01_06_Spring5_Annotation_Programming)
+
