@@ -10,7 +10,7 @@ public class MyTest {
         ApplicationContext context = new AnnotationConfigApplicationContext(MyConfig.class);
         String[] beanNames = context.getBeanDefinitionNames();
         for (String beanName : beanNames) {
-            System.out.println(beanName);
+            System.out.println("beanName = " + beanName);
         }
     }
 }
