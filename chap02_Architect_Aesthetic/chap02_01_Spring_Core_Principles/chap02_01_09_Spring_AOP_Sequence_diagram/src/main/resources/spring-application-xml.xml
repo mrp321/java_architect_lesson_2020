@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <bean id="memberService" class="cn.sitedev.service.MemberService"/>
+
+    <bean id="xmlAspect" class="cn.sitedev.aspect.XmlAspect"/>
+
+    <!--AOP配置-->
+    <aop:config>
+        <!--声明一个切面类, 并注入切面bean, 相当于@Aspect-->
+        <aop:aspect ref="xmlAspect">
+            <!--配置一个切入点, 相当于@Pointcut-->
+            <aop:pointcut id="pointcut" expression="execution(* cn.sitedev.service..*(..))"/>
+            <!--配置通知, 相当于@Before, @After, @Around, @AfterReturning, @AfterThrowing-->
+            <aop:before method="before" pointcut-ref="pointcut"/>
+            <aop:after method="after" pointcut-ref="pointcut"/>
+            <aop:around method="around" pointcut-ref="pointcut"/>
+            <aop:after-returning method="afterReturning" pointcut-ref="pointcut"/>
+            <aop:after-throwing method="afterThrowing" pointcut-ref="pointcut" throwing="exception"/>
+        </aop:aspect>
+    </aop:config>
+
+</beans>

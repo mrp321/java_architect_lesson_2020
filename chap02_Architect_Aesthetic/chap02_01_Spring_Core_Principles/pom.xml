@@ -18,6 +18,10 @@
         <module>chap02_01_04_30_Classes_4_SpringV2_MVC</module>
         <module>chap02_01_05_30_Classes_4_SpringV2_AOP</module>
         <module>chap02_01_06_Spring5_Annotation_Programming</module>
+        <module>chap02_01_07_Spring_IOC_Sequence_diagram</module>
+        <module>chap02_01_08_Spring_DI_Sequence_diagram</module>
+        <module>chap02_01_09_Spring_AOP_Sequence_diagram</module>
+        <module>chap02_01_10_Spring_MVC_Sequence_diagram</module>
     </modules>
 
 

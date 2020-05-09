@@ -108,7 +108,24 @@
 [参见chap02_01_05_30_Classes_4_SpringV2_AOP](./chap02_Architect_Aesthetic/chap02_01_Spring_Core_Principles/chap02_01_05_30_Classes_4_SpringV2_AOP)
 
 
-### 2.1.5. Spring5注解编程基础组件介绍
+### 2.1.6. Spring5注解编程基础组件介绍
 
 [参见chap02_01_06_Spring5_Annotation_Programming](./chap02_Architect_Aesthetic/chap02_01_Spring_Core_Principles/chap02_01_06_Spring5_Annotation_Programming)
+
+
+### 2.1.7. 一步一步手绘Spring IOC运行时序图
+
+[参见chap02_01_07_Spring_IOC_Sequence_diagram](./chap02_Architect_Aesthetic/chap02_01_Spring_Core_Principles/chap02_01_07_Spring_IOC_Sequence_diagram)
+
+### 2.1.8. 一步一步手绘Spring DI运行时序图
+
+[参见chap02_01_08_Spring_DI_Sequence_diagram](./chap02_Architect_Aesthetic/chap02_01_Spring_Core_Principles/chap02_01_08_Spring_DI_Sequence_diagram)
+
+### 2.1.9. 一步一步手绘Spring AOP运行时序图
+
+[参见chap02_01_09_Spring_AOP_Sequence_diagram](./chap02_Architect_Aesthetic/chap02_01_Spring_Core_Principles/chap02_01_09_Spring_AOP_Sequence_diagram)
+
+### 2.1.10. 一步一步手绘Spring MVC运行时序图
+
+[参见chap02_01_10_Spring_MVC_Sequence_diagram](./chap02_Architect_Aesthetic/chap02_01_Spring_Core_Principles/chap02_01_10_Spring_MVC_Sequence_diagram)
 
