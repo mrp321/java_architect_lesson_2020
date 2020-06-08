@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>chap02_01_Spring_Core_Principles</module>
+        <module>chap02_02_MyBatis_Core_Principles</module>
     </modules>
 
 

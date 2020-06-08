@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.sitedev.mapper.FeeMapper">
+    <resultMap id="BaseResultMap" type="Fee">
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="fee_amt" jdbcType="DECIMAL" javaType="BigDecimal" property="feeAmt"/>
+        <result column="fee_date" jdbcType="DATE" javaType="Date" property="feeDate"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+    id, fee_amt, fee_date
+    </sql>
+
+    <select id="selectByFeeDate" parameterType="java.lang.String" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from fee where fee_date = #{ feeDate }
+    </select>
+
+    <insert id="insert" parameterType="list">
+        INSERT INTO fee_202005 (fee_amt, fee_date) VALUES
+        <foreach collection="list" item="fee" separator="," open=" " close=" " index="index">
+            ( #{fee.feeAmt}, #{fee.feeDate})
+        </foreach>
+    </insert>
+
+</mapper>

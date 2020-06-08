@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.sitedev.mapper.BlogMapper">
+
+    <select id="selectByPrimaryKey" parameterType="Integer" resultMap="blogMap">
+        SELECT * FROM blog WHERE bid = #{bid}
+    </select>
+
+    <insert id="insert" parameterType="Blog">
+        INSERT INTO blog(name, author_id) VALUES (#{name}, #{authorId})
+    </insert>
+
+    <resultMap id="blogMap" type="Blog">
+        <id column="bid" property="bid"/>
+        <result column="name" property="name"/>
+        <result column="author_id" property="authorId"/>
+    </resultMap>
+</mapper>
