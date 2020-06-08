@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.sitedev.mapper.MemberMapper">
+    <select id="query" parameterType="Member" resultType="Member">
+
+        SELECT
+            *
+        FROM
+            t_member
+        <where>
+            <if test="id != null">
+                id = #{id}
+            </if>
+            <if test="name != null and name != ''">
+                <bind name="nameLike" value="'%' + name + '%'"/>
+                AND name LIKE #{nameLike}
+            </if>
+            <if test="addr != null and addr != ''">
+                AND addr LIKE CONCAT(CONCAT('%', #{addr, jdbcType=VARCHAR}), '%')
+            </if>
+            <if test="age != null">
+                AND age = #{age}
+            </if>
+        </where>
+    </select>
+
+    <insert id="add" parameterType="Member">
+        INSERT INTO
+            t_member(name, addr, age)
+        VALUES
+            (#{name}, #{addr}, #{age})
+    </insert>
+
+    <update id="modify" parameterType="Member">
+        UPDATE
+            t_member
+        <set>
+            <trim suffixOverrides=",">
+                <if test="member.name != null and member.name != ''">
+                    name = #{member.name},
+                </if>
+                <if test="member.addr != null and member.addr != ''">
+                    addr = #{member.addr},
+                </if>
+                <if test="member.age != null">
+                    age = #{member.age}
+                </if>
+            </trim>
+        </set>
+        <where>
+            id = #{id}
+        </where>
+    </update>
+
+    <delete id="delete" parameterType="member">
+        DELETE FROM
+            t_member
+        <where>
+            <if test="id != null">
+                id = #{id}
+            </if>
+            <if test="name != null and name != ''">
+                AND name = #{name}
+            </if>
+            <if test="addr != null and addr != ''">
+                AND addr = #{addr}
+            </if>
+            <if test="age != null">
+                AND age = #{age}
+            </if>
+        </where>
+    </delete>
+</mapper>

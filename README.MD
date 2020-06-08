@@ -129,3 +129,15 @@
 
 [参见chap02_01_10_Spring_MVC_Sequence_diagram](./chap02_Architect_Aesthetic/chap02_01_Spring_Core_Principles/chap02_01_10_Spring_MVC_Sequence_diagram)
 
+### 2.1.11. Spring事务传播原理及数据库事务操作原理
+
+[参见chap02_01_11_Spring_Tx](./chap02_Architect_Aesthetic/chap02_01_Spring_Core_Principles/chap02_01_11_Spring_Tx)
+
+### 2.1.12. 基于Spring JDBC手写定制自己的ORM框架
+
+[参见chap02_01_12_ORM_Based_on_SpringJdbc](./chap02_Architect_Aesthetic/chap02_01_Spring_Core_Principles/chap02_01_12_ORM_Based_on_SpringJdbc)
+
+### 2.1.13. Spring5新特性简述及经典的高频面试题分析
+
+[参见chap02_01_13_Spring5_New_features_And_Interviews](./chap02_Architect_Aesthetic/chap02_01_Spring_Core_Principles/chap02_01_13_Spring5_New_features_And_Interviews)
+

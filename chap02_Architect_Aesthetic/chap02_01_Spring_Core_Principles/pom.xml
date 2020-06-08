@@ -22,6 +22,9 @@
         <module>chap02_01_08_Spring_DI_Sequence_diagram</module>
         <module>chap02_01_09_Spring_AOP_Sequence_diagram</module>
         <module>chap02_01_10_Spring_MVC_Sequence_diagram</module>
+        <module>chap02_01_11_Spring_Tx</module>
+        <module>chap02_01_12_ORM_Based_on_SpringJdbc</module>
+        <module>chap02_01_13_Spring5_New_features_And_Interviews</module>
     </modules>
 
 
