@@ -173,3 +173,7 @@
 ### 3.1.1. 了解多线程的意义和使用
 
 [参见chap03_01_01_Multithread](./chap03_Distributed_And_High_Concurrency/chap03_01_Concurrency_Programming_Fundamentals_Principles/chap03_01_01_Multithread)
+
+### 3.1.2. 并发编程带来的挑战
+
+[参见chap03_01_02_Concurrency](./chap03_Distributed_And_High_Concurrency/chap03_01_Concurrency_Programming_Fundamentals_Principles/chap03_01_02_Concurrency)
