@@ -162,3 +162,14 @@
 
 [参见chap02_02_04_MyBatis_Hand_Writing](./chap02_Architect_Aesthetic/chap02_02_MyBatis_Core_Principles/chap02_02_04_MyBatis_Hand_Writing)
 
+# 3. 分布式与高并发
+
+[参见chap03_Distributed_And_High_Concurrency](./chap03_Distributed_And_High_Concurrency)
+
+## 3.1. 并发编程基础与原理
+
+[参见chap03_01_Concurrency_Programming_Fundamentals_Principles](./chap03_Distributed_And_High_Concurrency/chap03_01_Concurrency_Programming_Fundamentals_Principles)
+
+### 3.1.1. 了解多线程的意义和使用
+
+[参见chap03_01_01_Multithread](./chap03_Distributed_And_High_Concurrency/chap03_01_Concurrency_Programming_Fundamentals_Principles/chap03_01_01_Multithread)
