@@ -3,19 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>chap03_Distributed_And_High_Concurrency</artifactId>
+        <artifactId>chap03_01_Concurrency_Programming_Fundamentals_Principles</artifactId>
         <groupId>cn.sitedev</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>chap03_01_Concurrency_Programming_Fundamentals_Principles</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>chap03_01_01_Multithread</module>
-        <module>chap03_01_02_Concurrency</module>
-        <module>chap03_01_03_Volatile</module>
-    </modules>
+    <artifactId>chap03_01_03_Volatile</artifactId>
 
 
 </project>
