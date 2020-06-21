@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>chap03_04_01_Protocol</module>
+        <module>chap03_04_02_Serialization</module>
     </modules>
 
 

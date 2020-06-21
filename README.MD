@@ -189,3 +189,17 @@
 ### 3.3.1. 互联网总体架构设计
 
 [参见chap03_03_01_Architecture_Design](./chap03_Distributed_And_High_Concurrency/chap03_03_Distributed_Architecture/chap03_03_01_Architecture_Design)
+
+
+## 3.4. 分布式架构基础
+
+[参见chap03_04_Architecture_Foundation](./chap03_Distributed_And_High_Concurrency/chap03_04_Architecture_Foundation)
+
+### 3.4.1. 分布式架构的基石之远程通信协议
+
+[参见chap03_04_01_Protocol](./chap03_Distributed_And_High_Concurrency/chap03_04_Architecture_Foundation/chap03_04_01_Protocol)
+
+### 3.4.2. 序列化和反序列化技术的原理和原型
+
+[参见chap03_04_02_Serialization](./chap03_Distributed_And_High_Concurrency/chap03_04_Architecture_Foundation/chap03_04_02_Serialization)
+

@@ -1,0 +1,10 @@
+syntax = "proto2";
+package cn.sitedev.framework.protobuf;
+
+option java_package = "cn.sitedev.framework.protobuf";
+option java_outer_classname = "UserProtos";
+
+message User {
+    required string name = 1;
+    required int32 age = 2;
+}
