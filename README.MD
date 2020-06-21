@@ -177,3 +177,15 @@
 ### 3.1.2. 并发编程带来的挑战
 
 [参见chap03_01_02_Concurrency](./chap03_Distributed_And_High_Concurrency/chap03_01_Concurrency_Programming_Fundamentals_Principles/chap03_01_02_Concurrency)
+
+### 3.1.3. 探索线程安全性背后的本质之volatile
+
+[参见chap03_01_03_Volatile](./chap03_Distributed_And_High_Concurrency/chap03_01_Concurrency_Programming_Fundamentals_Principles/chap03_01_03_Volatile)
+
+## 3.3. 漫谈分布式架构
+
+[参见chap03_03_Distributed_Architecture](./chap03_Distributed_And_High_Concurrency/chap03_03_Distributed_Architecture)
+
+### 3.3.1. 互联网总体架构设计
+
+[参见chap03_03_01_Architecture_Design](./chap03_Distributed_And_High_Concurrency/chap03_03_Distributed_Architecture/chap03_03_01_Architecture_Design)
