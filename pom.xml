@@ -11,6 +11,7 @@
         <module>chap01_Architect_Inner_Power_Skills</module>
         <module>chap02_Architect_Aesthetic</module>
         <module>chap03_Distributed_And_High_Concurrency</module>
+        <module>chap04_Microservice</module>
     </modules>
     <packaging>pom</packaging>
 
