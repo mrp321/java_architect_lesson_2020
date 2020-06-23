@@ -182,6 +182,17 @@
 
 [参见chap03_01_03_Volatile](./chap03_Distributed_And_High_Concurrency/chap03_01_Concurrency_Programming_Fundamentals_Principles/chap03_01_03_Volatile)
 
+
+## 3.2. 并发编程JUC
+
+[参见chap03_02_JUC](./chap03_Distributed_And_High_Concurrency/chap03_02_JUC)
+
+### 3.2.1. 理解JUC中ReentrantLock底层设计
+
+[参见chap03_02_01_ReentrantLock](./chap03_Distributed_And_High_Concurrency/chap03_02_JUC/chap03_02_01_ReentrantLock)
+
+
+
 ## 3.3. 漫谈分布式架构
 
 [参见chap03_03_Distributed_Architecture](./chap03_Distributed_And_High_Concurrency/chap03_03_Distributed_Architecture)
