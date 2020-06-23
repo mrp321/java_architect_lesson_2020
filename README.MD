@@ -191,6 +191,9 @@
 
 [参见chap03_02_01_ReentrantLock](./chap03_Distributed_And_High_Concurrency/chap03_02_JUC/chap03_02_01_ReentrantLock)
 
+### 3.2.2. 常见并发工具的使用及原理解析
+
+[参见chap03_02_02_JUC_Tools](./chap03_Distributed_And_High_Concurrency/chap03_02_JUC/chap03_02_02_JUC_Tools)
 
 
 ## 3.3. 漫谈分布式架构
