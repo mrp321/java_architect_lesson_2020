@@ -195,6 +195,10 @@
 
 [参见chap03_02_02_JUC_Tools](./chap03_Distributed_And_High_Concurrency/chap03_02_JUC/chap03_02_02_JUC_Tools)
 
+### 3.2.3. 深入分析阻塞队列以及原子操作等并发工具
+
+[参见chap03_02_03_Blocking_Queue_And_Atomic_Operation](./chap03_Distributed_And_High_Concurrency/chap03_02_JUC/chap03_02_03_Blocking_Queue_And_Atomic_Operation)
+
 
 ## 3.3. 漫谈分布式架构
 
