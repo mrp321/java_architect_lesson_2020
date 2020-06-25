@@ -203,6 +203,12 @@
 
 [参见chap03_02_04_ConcurrentHashMap](./chap03_Distributed_And_High_Concurrency/chap03_02_JUC/chap03_02_04_ConcurrentHashMap)
 
+### 3.2.5. 线程池的设计与原理解析
+
+[参见chap03_02_05_Thread_Pool](./chap03_Distributed_And_High_Concurrency/chap03_02_JUC/chap03_02_05_Thread_Pool)
+
+
+
 ## 3.3. 漫谈分布式架构
 
 [参见chap03_03_Distributed_Architecture](./chap03_Distributed_And_High_Concurrency/chap03_03_Distributed_Architecture)

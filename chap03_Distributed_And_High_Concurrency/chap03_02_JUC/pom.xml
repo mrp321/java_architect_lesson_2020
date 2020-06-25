@@ -16,6 +16,7 @@
         <module>chap03_02_02_JUC_Tools</module>
         <module>chap03_02_03_Blocking_Queue_And_Atomic_Operation</module>
         <module>chap03_02_04_ConcurrentHashMap</module>
+        <module>chap03_02_05_Thread_Pool</module>
     </modules>
 
 
