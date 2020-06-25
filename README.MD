@@ -199,6 +199,9 @@
 
 [参见chap03_02_03_Blocking_Queue_And_Atomic_Operation](./chap03_Distributed_And_High_Concurrency/chap03_02_JUC/chap03_02_03_Blocking_Queue_And_Atomic_Operation)
 
+### 3.2.4. 深入分析ConcurrentHashMap的源码与设计
+
+[参见chap03_02_04_ConcurrentHashMap](./chap03_Distributed_And_High_Concurrency/chap03_02_JUC/chap03_02_04_ConcurrentHashMap)
 
 ## 3.3. 漫谈分布式架构
 
